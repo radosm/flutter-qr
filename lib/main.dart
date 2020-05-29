@@ -54,8 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
-            Text('*** Presione la camara para escanear ***'),
-            Text('El código escaneado aparecerá en el título ...'),
+            Text('*** Presione la camara para escanear ***\nEl código escaneado aparecerá en el título ...'),
           ],
         ),
       ),
